@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linLayout1Vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linLayout2Horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btnPrefSimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:text="Pref Simple UI"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp" />
+
+    <Button
+        android:id="@+id/btnPrefFancy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="23dp"
+        android:text="Pref Fancy UI"
+        android:layout_marginRight="23dp"
+        android:layout_alignParentRight="true" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtCaption1"
+        android:layout_width="fill_parent"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="98dp"
+        android:background="#FF006666"
+        android:text="This is some sample text "
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
